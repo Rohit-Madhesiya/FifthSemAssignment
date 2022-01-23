@@ -1,0 +1,132 @@
+/* Body Tag Styling */
+*{
+  font-size: 15px;  
+  /* color: white; */
+}
+body{
+  background-image: url("bg-img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Styling Heading of Periodic Table */
+.heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  margin-left: 20%;
+  width: fit-content;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+/* Styling Periodic Table */
+.periodic{
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: -7px -7px 15px rgba(0, 0, 0, 0.575), 7px 7px 15px rgba(66, 22, 22, 0.575);
+}
+.periodic:hover{
+  box-shadow: -5px -5px 10px black, 5px 5px 10px black;
+}
+/* Styling Elements of the Table */
+table td{
+  border: 2.5px solid;
+  border-radius: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
+.empty{
+  visibility: hidden;
+  cursor: none;
+}
+.e1{
+  border-color: #F9A825;
+  background-color: #f9a82510;
+}
+.e1:hover, .e1:hover>sup{
+  background-color: #FFF59D;
+  color: black;
+}
+.e2{
+  border-color: #64DD17;
+  background-color: #64DD1710;
+}
+.e2:hover, .e2:hover>sup{
+  background-color: #CCFF90;
+  color: black;
+}
+.e3{
+  border-color: #9C27B0;
+  background-color: #9C27B010;
+}
+.e3:hover, .e3:hover>sup{
+  background-color: #E1BEE7;
+  color: black;
+}
+.e4{
+  border-color: rgb(75, 75, 255);
+  background-color: rgba(75, 75, 255, 0.06);
+}
+.e4:hover, .e4:hover>sup{
+  background-color: #C5CAE9;
+  color: black;
+}
+.e5{
+  border-color: rgb(9, 240, 228);
+  background-color: rgb(9, 240, 228, 0.06);
+}
+.e5:hover, .e5:hover>sup{
+  background-color: rgb(157, 245, 248);
+  color: black;
+}
+.e6{
+  border-color: #27AE60;
+  background-color: #F4511E10;
+}
+.e6:hover, .e6:hover>sup{
+  background-color: #72e7a3;
+  color: black;
+}
+.e7{
+  border-color: #2C3E50;
+  background-color: #8D6E6310;
+}
+.e7:hover, .e7:hover>sup{
+  background-color: #BCAAA4;
+  color: black;
+}
+.e8{
+  border-color: #b82200;
+  background-color: #eb2f0610;
+}
+.e8:hover, .e8:hover>sup{
+  background-color: #f18168;
+  color: black;
+}
+.e9{
+  border-color: #1E88E5;
+  background-color: #1E88E510;
+}
+.e9:hover, .e9:hover>sup{
+  background-color: #90CAF9;
+  color: black;
+}
+.e10{
+  border-color: #ce0447;
+  background-color: #E91E6310;
+}
+.e10:hover, .e10:hover>sup{
+  background-color: #F48FB1;
+  color: black;
+}
+sup{
+  background: none;
+}

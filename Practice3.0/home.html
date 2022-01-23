@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Rohit Gupta">
+	<meta name="viewport" content="width:device-width, initial-scale:1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Register Form</title>
+</head>
+
+<body>
+	<div class="navDiv">
+		<div class="navFirst">
+			<img src="" atb="icon image">
+			<h2>Head Name</h2>
+		</div>
+		<div class="navSec">
+			<div>
+				<a href="">Home</a>
+			</div>
+			<div>
+				<a href="">Register Here</a>
+			</div>
+			<div>
+				<a href="">Sign In</a>
+			</div>
+		</div>
+	</div>
+	<input type="checkbox" name="toggle" id="tog">
+	<div class="formContainer">
+		<div class="formDiv">
+			<h3>Create an Account</h3>
+			<hr>
+			<div class="name">
+				<label for="name">Name</label>
+				<select name="proto">
+					<option>Mr.</option>
+					<option>Ms.</option>
+					<option>Mrs.</option>
+					<option>Dr.</option>
+				</select>
+				<input type="text" placeholder="Enter Name">
+			</div>
+			<div class="email">
+				<label for="email">E-mail</label>
+				<input type="email" placeholder="Enter Email Address">
+			</div>
+			<div class="gen">
+				<label for="gender">Gender</label>
+				<input type="radio" name="gen" id="male"><label for="male">Male</label>
+				<input type="radio" name="gen" id="female"><label for="female">Female</label>
+			</div>
+			<div class="mobile">
+				<label for="mobile">Mobile Number</label>
+				<input type="number" placeholder="Enter Mobile Number">
+			</div>
+			<div class="pass">
+				<label for="pass">Enter Password</label>
+				<input type="password" placeholder="Enter Password">
+			</div>
+			<div class="confPass">
+				<label for="confPass">Confirm Password</label>
+				<input type="password" placeholder="Confirm Password">
+			</div>
+			<div class="security">
+				<fieldset>
+					<legend>Security Question</legend>
+					<select name="question">
+						<option>What is your Nationality?</option>
+						<option>What is your First Pet name?</option>
+						<option>What is your School name?</option>
+					</select>
+					<input type="text" placeholder="Enter Answer">
+				</fieldset>
+			</div>
+			<div class="agree">
+				<input type="checkbox" name="agreeCheck">
+				I have read and agree to the <a href="">terms & privacy</a>
+			</div>
+			<div class="button">
+				<input type="submit" value="Create">
+			</div>
+			<div class="signIn">
+				<label for="tog">Already Have an Account?</label>
+			</div>
+		</div>
+		<div class="log">
+			login Here!
+		</div>
+	</div>
+</body>
+
+</html>

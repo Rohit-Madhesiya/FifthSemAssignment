@@ -1,0 +1,139 @@
+h2{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  position: relative;
+}
+.admin{
+  float: right;
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.cart{
+  float: right;
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 2%;
+}
+.container{
+  width: fit-content;
+  height: auto;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.itemCard{
+  column-gap:  30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: inset -2px -2px 8px gray;
+}
+.itemCard img{
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.itemCard label{
+  text-align: center;
+  padding: 5px;
+  font: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+.itemCard input[type="number"]{
+  margin-bottom: 10px;
+  margin-right: 10px;
+  outline: 0ch;
+  width: 40px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+.itemCard input[type='submit']{
+  width: fit-content;
+  padding: 5px;
+  float: right;
+  font: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+/* Another Page */
+.home{
+  padding: 10px;
+  width: fit-content;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10%;
+
+}
+.tab-container{
+  display: flex;
+  justify-content: center;
+}
+table{
+  position: relative;
+}
+th{
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+}
+td{
+  font-size: 16px;
+}
+td,th{
+  padding:5px;
+  margin-right: 10px;
+}
+.remove{
+  cursor: pointer;
+  color: red;
+}
+.image{
+  width: 100px;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin:auto;
+}
+.final{
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;  
+  margin-top: 500px;
+}
+.final input{
+  width: 80px;
+  margin-left: 20px;
+}
+
+/* admin_stock.php Page */
+.tAmtHead{
+  text-align: end;
+  margin-top: -600px;
+  margin-right: 100px;
+}

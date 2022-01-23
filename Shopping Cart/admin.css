@@ -1,0 +1,107 @@
+h2{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.container h4{
+  text-align: center;
+  font-size: 24px;
+}
+.home{
+  padding: 10px;
+  width: fit-content;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itemImg{
+  width:300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -2px -2px 8px gray;
+  margin-bottom: 20px;
+  background-image: url("icon/214961fb-8744-4971-bdbc-813eb2ac7395.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+#hint{
+  /* z-index: -1; */
+  color: white;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  display: block;
+}
+#showImg{
+  width: 300px;
+  height: auto;
+  margin:auto;
+}
+input[type="file"]::-webkit-file-upload-button{
+  display: none;
+}
+.itemImg input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  padding: 200px;
+  z-index: 1;
+  background:transparent;
+}
+.itemImg img{
+  position: absolute;
+  z-index: 0;
+}
+ input[type="number"], input[type="text"]{
+  position: relative;
+  border: 1px solid gray;
+
+  font-size: 18px;
+text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+}
+input[type="number"]:focus~label, input[type="text"]:focus~label,input:not(:placeholder-shown) ~label{
+  transform: translate(-12px, -15px);
+  z-index: 1;
+}
+input[type="number"]:focus input, input[type="text"]:focus input{
+  border: 2px solid blue;
+}
+label{
+  position: absolute;
+  margin-left: 20px;
+  z-index: -1;
+  background-color: white;
+  padding: 2px;
+  margin-top: 3px;
+  transition: all 10ms ease;
+}
+.numItem,.rateDiv,.itemName{
+display: flex;
+}
+
+.submit{
+  font: 800;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
